@@ -1,0 +1,33 @@
+Ad Soyad:   							 Ogrenci No: 
+VTYS-1 Dönem Projesi: Çevrimiçi Yemek Sipariþ Platformu Veritabaný Tasarýmý Teslim Raporu Sablonu
+1. Proje Özeti ve Kapsamý
+* Genel Taným: Sistemin temel amacýný ve kapsamýný (müþteri, restoran, kurye vb. bileþenleri) kýsaca açýklayýn. 
+* 3NF Uyumluluðu: Veritabanýnýzýn neden 3. Normal Form'a uygun olduðunu ve veri tekrarýný nasýl önlediðinizi belirtin. 
+2. "Askýda Yemek" Modülü Ýþ Kurallarý
+* Baðýþ Mantýðý: Hayýrseverlerin sisteme nasýl baðýþ (yemek veya bakiye) tanýmladýðýný açýklayýn. 
+* Gizlilik Kurallarý: Baðýþçýlarýn kimliklerini gizleme veya açýkça belirtme seçeneðinin teknik olarak nasýl kurgulandýðýný belirtin. 
+* Yararlanma Þartlarý: Ýhtiyaç sahibi kullanýcýlarýn doðrulanma ve havuzdan sipariþ verme sürecini anlatýn. 
+* Bakiye Yönetimi: Baðýþ yapýldýðýnda ve sipariþ verildiðinde bakiyenin nasýl güncellendiðini (trigger veya kod seviyesinde) mühendislik yaklaþýmýnýzla açýklayýn. 
+3. Varlýk-Ýliþki (ER) Diyagramý
+* Görsel Þema: Tüm tablolarý, sütunlarý, Primary Key (PK) ve Foreign Key (FK) iliþkilerini gösteren diyagramý buraya ekleyin. 
+* Ýliþki Açýklamalarý: Hangi tablolar arasýnda 1:N (Bire-Çok) veya M:N (Çoka-Çok) iliþki kurduðunuzu ve nedenlerini belirtin. 
+4. Veri Tanýmlama ve Kýsýtlamalar (DDL)
+* Tablo Yapýlarý: Kullandýðýnýz tablolarýn isimlerini ve her birinin iþlevini listeleyin. 
+* Constraint Kullanýmý: Hangi tablolarda, hangi amaçla CHECK, UNIQUE ve NOT NULL kýsýtlamalarýný kullandýðýnýzý teknik nedenleriyle yazýn. 
+* Soft Delete: Verilerin fiziksel olarak silinmemesi için kullandýðýnýz "pasife çekme" (IsActive vb.) mantýðýný anlatýn. 
+5. Veritabaný Programlanabilirlik Nesneleri
+* Görünümler (Views): Oluþturduðunuz en az 2 adet View'ýn hangi karmaþýk sorgularý basitleþtirdiðini açýklayýn. 
+* Tetikleyiciler (Triggers): Otomatize edilen iþ kurallarýný (Örn: bakiye düþme, ciro güncelleme) ve bu trigger'larýn ne zaman tetiklendiðini belirtin. 
+* Ýndeksleme (Index): Performans artýþý için hangi kolonlara neden indeks tanýmladýðýnýzý açýklayýn. 
+6. Analitik Sorgu Senaryolarý
+* JOIN Sorgusu: Hangi 3 tabloyu neden birleþtirdiðinizi ve bu sorgunun hangi iþ ihtiyacýna (Örn: sipariþ fiþi) cevap verdiðini yazýn. 
+* Gruplama ve Agregasyon: GROUP BY ve HAVING kullanarak yaptýðýnýz analitik hesaplamanýn (Örn: restoran performans analizi) amacýný açýklayýn. 
+* Alt Sorgu (Subquery): IN, EXISTS gibi ifadelerle kurduðunuz mantýksal sorgunun neyi hedeflediðini belirtin. 
+7. Yapay Zeka (AI) Beyaný
+* Asistan Kullanýmý: Hangi yapay zeka aracýný (ChatGPT, Gemini vb.) projenin hangi aþamasýnda (test verisi üretme, hata çözme vb.) kullandýðýnýzý dürüstçe listeleyin. 
+* Özgünlük Onayý: Yapay zekadan alýnan sonuçlarý nasýl kontrol ettiðinizi ve sistemin mantýðýna nasýl hakim olduðunuzu ifade edin. 
+8. GitHub ve Versiyonlama
+* Repo Linki: Proje kodlarýnýn bulunduðu herkese açýk (public) GitHub baðlantýsýný ekleyin. 
+* Commit Geçmiþi: Projeyi tek seferde yüklemek yerine, geliþtirme aþamalarýný gösteren düzenli yüklemeler (commit'ler) yaptýðýnýzý teyit edin. 
+9. Bu raporun doldurulmus halini 22 Mayis ders saati oncesine kadar ALMS den gonderin. Gec gonderimler degerlendirmeye alinmayacaktir. 
+ 
