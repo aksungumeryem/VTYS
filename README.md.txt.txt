@@ -1,11 +1,9 @@
 VTYS-1 DÖNEM PROJESI TESLIM RAPORU
 Çevrimiçi Yemek Sipariş Platformu Veri Tabanı Tasarımı
-Adı Soyadı:
-Öğrenci No:
-Ders:
-Meryem Aksüngü
-23390008024
-Veritabanı Yönetim Sistemleri - 1 (Dönem Projesi)
+Adı Soyadı:Meryem Aksüngü
+Öğrenci No:23390008024
+Ders:Veritabanı Yönetim Sistemleri - 1 (Dönem Projesi)
+
 1. PROJE ÖZETI VE KAPSAMI
 Bu proje, kullanıcıların sisteme kayıtlı restoranların menülerinden çevrimiçi olarak yemek siparişi verebileceği bir
 platformun ilişkisel veritabanı altyapısını (YemekSiparisDB_V2) kapsamaktadır. Tasarlanan mimari; temel müşteri
